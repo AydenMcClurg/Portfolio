@@ -1,0 +1,35 @@
+header{
+
+}
+/* mains */
+header{
+    border: blue solid 3px;
+}
+
+body{
+    border: 3px solid black;
+    margin: auto;
+}
+
+footer#toes{
+    border: solid pink 3px;
+}
+
+/* sections */
+
+section#sholders{
+    border: solid green 3px;
+}
+
+/* divs */
+div#socialLoc{
+    margin-right: auto;
+}
+
+
+/* images */
+img#logo{
+    width: 80px;
+    height: 80px;
+}
+
