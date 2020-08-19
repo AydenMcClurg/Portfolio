@@ -1,4 +1,7 @@
 /* mains */
+html{
+    background-color: #181818;
+}
 .head{
     border: blue solid 3px;
 }
@@ -14,6 +17,7 @@ body{
 
 .knees{
     border: solid teal 3px;
+    background-color: #333333;
 }
 
 .toes{
@@ -38,3 +42,49 @@ img#socials{
     width: 35px;
 }
 
+
+
+/* slideshow */
+
+.slidesLoc{
+    max-width: 1600px;
+    position: relative;
+    margin: auto;
+}
+
+/* .slideFade{
+    display: none;
+} */
+
+/* .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    }           edit            */       
+
+
+/* slideshow images */
+#slideImg1{
+    width: 90%;
+}
+
+#slideImg2{
+    width: 90%;
+}
+
+#slideImg3{
+    width: 90%;
+}
+
+#slideImg4{
+    width: 90%;
+}
