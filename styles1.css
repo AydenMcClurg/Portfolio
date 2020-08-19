@@ -1,8 +1,5 @@
-header{
-
-}
 /* mains */
-header{
+.head{
     border: blue solid 3px;
 }
 
@@ -11,19 +8,22 @@ body{
     margin: auto;
 }
 
-footer#toes{
-    border: solid pink 3px;
-}
-
-/* sections */
-
-section#sholders{
+.sholders{
     border: solid green 3px;
 }
 
+.knees{
+    border: solid teal 3px;
+}
+
+.toes{
+    border: solid pink 3px;
+}
+
 /* divs */
-div#socialLoc{
-    margin-right: auto;
+div.socialLoc{
+    border: red solid 3px;
+    float: right;
 }
 
 
@@ -31,5 +31,10 @@ div#socialLoc{
 img#logo{
     width: 80px;
     height: 80px;
+}
+
+img#socials{
+    height: 35px;
+    width: 35px;
 }
 
