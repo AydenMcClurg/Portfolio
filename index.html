@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link href="styles1.css" rel="stylesheet">
     <script src="script.js"></script>
+    <script src="slides.js" defer></script>
 </head>
 <body>
     <header class="head">
@@ -25,29 +26,42 @@
         
     </header>
     <section class="sholders">
-        <p>something</p>
+        
         <div class="slidesLoc">
-            <div class="slideFade">
+            <div class="slideFade fade">
                 <img src="slideshowPics/temp1.jpeg" id="slideImg1">
+                <div class="slideNum">1/4</div>
                 <div class="captions">Project 1</div>
             </div>
-            <div class="slideFade">
+            <div class="slideFade fade">
                 <img src="slideshowPics/temp2.jpeg" id="slideImg2">
+                <div class="slideNum">2/4</div>
                 <div class="captions">Project 2</div>
             </div>
-            <div class="slideFade">
+            <div class="slideFade fade">
                 <img src="slideshowPics/temp3.jpeg" id="slideImg3">
+                <div class="slideNum">3/4</div>
                 <div class="captions">Project 3</div>
             </div>
-            <div class="slideFade">
+            <div class="slideFade fade">
                 <img src="slideshowPics/temp4.jpeg" id="slideImg4">
+                <div class="slideNum">4/4</div>
                 <div class="captions">Project 4</div>
             </div>
-
+            
+            <!-- I'm gonna use automatic slides and not user controlled slides
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
         </div>
 
+        <!-- for user controlled slides
+        <div id="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div> -->
+
+        <p>something</p>
     </section>
     <section class="knees">
         <p>something else</p>
