@@ -1,7 +1,8 @@
 /* mains */
 html{
-    background-color: #181818;
+    /* background-color: #181818; */
     color: white;
+    background: #000000;
 }
 .head{
     border: blue solid 3px;
@@ -18,7 +19,7 @@ body{
 
 .knees{
     border: solid teal 3px;
-    background-color: #333333;
+    background-color: #181818;
 }
 
 .toes{
@@ -51,7 +52,7 @@ img#socials{
     max-width: 1600px;
     position: relative;
     margin: auto;
-    border: rgba(0, 0, 0, 0.4) solid 9px;
+    border: rgba(255, 88, 211, 0.6) solid 4px;
 }
 
 /* hiding images */
@@ -59,7 +60,7 @@ img#socials{
     display: none;
 }
 
-/* buttons */
+/* buttons */ /*for user controlled slides*/
     /* .prev, .next{
         cursor: pointer;
         position: absolute;
@@ -139,10 +140,6 @@ img#socials{
     to {opacity: 1}
 }
 
-
-
-
-
 /* to center the dots at the bottom */
 #dots{
     text-align: center;
@@ -165,3 +162,81 @@ img#socials{
 #slideImg4{
     width: 100%;
 }
+
+/* nav */
+
+/* removes ul dots */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li{
+    display: inline;
+}
+
+li.navElms{
+    float: left;
+    border-right: 1px solid hotpink;
+}
+
+a.navLinks{
+    display: block;
+    padding: 8px;
+    background-color: #000000;
+}
+
+li.navElms a.navLinks{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+
+li.navElms a:hover{
+    background-color: hotpink;
+    transition: 1s;
+}
+
+li#aboutMe{
+    border-left: hotpink;
+    float: right;
+}
+
+a#aboutLink{
+    display: block;
+    padding: 8px;
+    background-color: hotpink;
+}
+
+li#aboutMe a#aboutLink{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+
+li#aboutMe a:hover{ /*future: transition to an image lol*/
+    background-color: #000000;
+    transition: 1s;
+}
+
+/* about me */
+
+div#aboutMeLoc{
+    float: right;
+}
+
+#aboutMeHead{
+    text-align: center;
+}
+
+#aboutMeText{
+    
+}
+
