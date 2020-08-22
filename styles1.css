@@ -1,58 +1,55 @@
-/* mains */
+/* ---------------------------mains---------------------------- */
 html{
     /* background-color: #181818; */
     color: white;
-    background: #000000;
-}
-.head{
-    border: blue solid 3px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1)
+    95%, rgba(255,88,211,1) 100%);
+    
 }
 
+
 body{
-    border: 3px solid black;
     margin: auto;
 }
 
-.sholders{
-    border: solid green 3px;
-}
+
 
 .knees{
-    border: solid teal 3px;
+    
     background-color: #181818;
 }
 
-.toes{
-    border: solid pink 3px;
-}
 
-/* divs */
+
+/* ---------------------------divs---------------------------- */
 div.socialLoc{
-    border: red solid 3px;
     float: right;
 }
 
 
-/* images */
+/* -----------------------------images--------------------------- */
 img#logo{
     width: 80px;
     height: 80px;
 }
 
 img#socials{
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 50px;
 }
 
 
 
-/* slideshow */
+/* ------------------------------slideshow--------------------------- */
 
 .slidesLoc{
     max-width: 1600px;
+    width: 1400px;
     position: relative;
     margin: auto;
-    border: rgba(255, 88, 211, 0.6) solid 4px;
+    border-top: solid 10px #000000;
+    border-bottom: solid 10px #000000;
 }
 
 /* hiding images */
@@ -163,7 +160,7 @@ img#socials{
     width: 100%;
 }
 
-/* nav */
+/* ---------------------------- nav --------------------------- */
 
 /* removes ul dots */
 ul {
@@ -180,7 +177,7 @@ li{
 
 li.navElms{
     float: left;
-    border-right: 1px solid hotpink;
+    /* border: 1px solid hotpink; */
 }
 
 a.navLinks{
@@ -224,19 +221,43 @@ li#aboutMe a#aboutLink{
 li#aboutMe a:hover{ /*future: transition to an image lol*/
     background-color: #000000;
     transition: 1s;
-}
-
-/* about me */
-
-div#aboutMeLoc{
-    float: right;
-}
-
-#aboutMeHead{
-    text-align: center;
-}
-
-#aboutMeText{
     
 }
 
+/* ------------------------------about me-------------------------------- */
+.aboutMeLoc{
+    background: linear-gradient(#000000, #292929, #000000);
+}
+.me{
+    width: inherit;
+    height: inherit;
+    max-width: 300px;
+    max-height: 450px;
+    position: center;
+    
+}
+
+#aboutDes{
+    position: absolute;
+    right: 0px;
+    width: 700px;
+    padding: 10px;
+}
+
+.column{
+    float: left;
+    padding: 5px 200px;
+}
+
+.aboutMeLoc::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* -------------------------------footer---------------------------------- */
+
+.toes{
+    text-align: center;
+}
